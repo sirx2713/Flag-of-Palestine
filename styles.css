@@ -1,0 +1,36 @@
+body{
+    background-color: #153448;
+}
+h1{
+    font-family: "SF Pro Display", serif;
+    color: #FFFFFF;
+}
+#black-rectangle{
+    height: 600px;
+    width: 1200px;
+    background-color: black;
+    position: relative;
+}
+#black-rectangle > #white-rectangle{
+    height: 200px;
+    width: 1200px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+}
+#black-rectangle > #green-rectangle{
+    height: 200px;
+    width: 1200px;
+    background-color: #149954;
+    position: absolute;
+    top: 400px;
+}
+#black-rectangle > #red-triangle{
+    height: 0;
+    width: 0;
+    border-left: 500px solid #E4312b;
+    border-bottom: 300px solid transparent;
+    border-top: 300px solid transparent;
+    position: absolute;
+
+}
